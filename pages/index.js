@@ -28,7 +28,7 @@ export default function Home() {
         <section>
           <h2>Trasa</h2>
           <div className="map-wrapper">
-            <iframe width="100%" height="500" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
+            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
           </div>
           <p>
             Mapki:{" "}
