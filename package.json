@@ -1,6 +1,6 @@
 {
-  "name": "jurathlon2020",
-  "version": "0.1.0",
+  "name": "jurathlon",
+  "version": "2020.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
