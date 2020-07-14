@@ -71,7 +71,7 @@ export default function Home() {
         <section>
           <h2>Trasa biegu</h2>
           <p>
-          Trasa poprowadzona szlakami turystycznymi (drogi leśne w 90%, fragment piaszczysty i asfaltowy w 10%) wśród jurajskich skał i jaskiń oraz w okolicach Zamku Bąkowiec (Zawiercie-Skarżyce) z przewyższeniami ok. 120m.
+            Trasa poprowadzona szlakami turystycznymi (drogi leśne w 90%, fragment piaszczysty i asfaltowy w 10%) wśród jurajskich skał i jaskiń oraz w okolicach Zamku Bąkowiec (Zawiercie-Skarżyce).
           </p>
           <p>
             Mapki:{" "}
