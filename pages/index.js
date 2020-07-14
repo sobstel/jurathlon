@@ -17,10 +17,10 @@ export default function Home() {
           <h2>19.07.2020, godz: 10:00<br />Kroczyce-Piaseczno</h2>
           <p className="links">
               Listy startowe:
-              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b81b-7850-4a73-9de9-30faac1f25ca/registered" target="_blank">6km</a>,
-              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b82f-1454-49ca-ab6a-3602ac1f25ca/registered" target="_blank">12km</a>,
-              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b877-61e0-40f0-8ae4-30faac1f25ca/registered" target="_blank">18km</a>,
-              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b88b-00dc-451a-8b6c-30faac1f25ca/registered" target="_blank">24km</a>.
+              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b81b-7850-4a73-9de9-30faac1f25ca/registered" target="_blank">6km</a>,{" "}
+              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b82f-1454-49ca-ab6a-3602ac1f25ca/registered" target="_blank">12km</a>,{" "}
+              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b877-61e0-40f0-8ae4-30faac1f25ca/registered" target="_blank">18km</a>,{" "}
+              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b88b-00dc-451a-8b6c-30faac1f25ca/registered" target="_blank">24km</a>.<br/>
 
               Wydarzenie: <a href="https://www.facebook.com/events/2622123298003333/" target="_blank">facebook.com</a><br />
               Organizator: <a href="https://www.facebook.com/ActiveJura/" target="_blank">Active Jura</a><br />
