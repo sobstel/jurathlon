@@ -14,9 +14,9 @@ export default function Home() {
         </h1>
 
         <section>
-          <h2>19.07.2020, godz: 10:00<br />Kroczyce-Piaseczno</h2>
+          <h2>19.07.2020<br />Kroczyce-Piaseczno</h2>
           <p className="links">
-              Listy startowe:
+              Listy startowe:{" "}
               <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b81b-7850-4a73-9de9-30faac1f25ca/registered" target="_blank">6km</a>,{" "}
               <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b82f-1454-49ca-ab6a-3602ac1f25ca/registered" target="_blank">12km</a>,{" "}
               <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b877-61e0-40f0-8ae4-30faac1f25ca/registered" target="_blank">18km</a>,{" "}
@@ -30,7 +30,14 @@ export default function Home() {
 
         <section>
           <h2>Program</h2>
-          <p>wkrótce</p>
+          <p>
+            SB 17:00-21:00 Odbiór numerów<br />
+            ND 07:00-09:00 Odbiór numerów<br />
+            ND 09:30 Oddprawa zawodników i oficjalna rozgrzewka<br />
+            ND 10:00 Start biegu<br />
+            ND 11:30-14:00 Dekoracje zawodników OPEN K i M<br />
+            ND 14:00 Ognisko ;-)
+          </p>
         </section>
 
         <section>
