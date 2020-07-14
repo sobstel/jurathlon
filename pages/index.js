@@ -33,7 +33,8 @@ export default function Home() {
           <p>
             <b>SB 17:00-21:00</b> Odbiór numerów<br />
             <b>ND 07:00-09:00</b> Odbiór numerów<br />
-            <b>ND 09:30</b> Oddprawa zawodników i oficjalna rozgrzewka<br />
+            <b>ND 09:30</b> Odprawa zawodników<br />
+            <b>ND 09:45</b> Oficjalna rozgrzewka<br />
             <b>ND 10:00</b> Start biegu<br />
             <b>ND 11:30-14:00</b> Dekoracje zawodników OPEN K i M<br />
             <b>ND 14:00</b> Ognisko ;-)
