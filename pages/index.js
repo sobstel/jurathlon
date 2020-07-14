@@ -32,19 +32,7 @@ export default function Home() {
         <section>
           <h2>Dojazd/parking</h2>
           <p>
-            Biuro zawodów, start/meta: Piaseczno, koło Kroczyc<br />
-            Lokalizacja: <a href="https://goo.gl/maps/Zhf794ybZJJwkPEt9" target="_blank">goo.gl/maps/Zhf794ybZJJwkPEt9</a>
-          </p>
-          <p>
             Lokalizacja parkingu: <a href="https://goo.gl/maps/bezCNuvd1gVYqmpD7" target="_blank">goo.gl/maps/bezCNuvd1gVYqmpD7</a><br />
-          </p>
-          <div>
-            <a href="/jurathlon-dojazd1-big.jpg" target="_blank">
-              <img src="/jurathlon-dojazd1.jpg" />
-            </a>
-          </div>
-          <p>
-            (<a href="/jurathlon-dojazd1-big.jpg" target="_blank">powiększ</a>)
           </p>
           <div>
             <a href="/jurathlon-dojazd2-big.jpg" target="_blank">
@@ -53,6 +41,26 @@ export default function Home() {
           </div>
           <p>
             (<a href="/jurathlon-dojazd2-big.jpg" target="_blank">powiększ</a>)
+          </p>
+        </section>
+
+        <section>
+          <h2>Biuro zawodów</h2>
+          <p>
+            Z parkingu idziemy wzdłuż betonowego płotu z oznaczeniami czerwonego szlaku.
+            Po około 500m po lewej stronie zobaczymy skałę Cydzownik za którą skręcamy w lewo i wąską ścieżką po kolejnych 300m dochodzimy do znajdującej się po lewej stronie polany <em>Motylkowe Wzgórze</em>,
+            gdzie w namiocie oznaczonym napisem BIURO ZAWODÓW będzie można odebrać pakiet startowy. Start/meta będzie zaraz obok biura.
+          </p>
+          <p>
+            Lokalizacja biura i startu/mety: <a href="https://goo.gl/maps/Zhf794ybZJJwkPEt9" target="_blank">goo.gl/maps/Zhf794ybZJJwkPEt9</a>
+          </p>
+          <div>
+            <a href="/jurathlon-dojazd1-big.jpg" target="_blank">
+              <img src="/jurathlon-dojazd1.jpg" />
+            </a>
+          </div>
+          <p>
+            (<a href="/jurathlon-dojazd1-big.jpg" target="_blank">powiększ</a>)
           </p>
         </section>
 
