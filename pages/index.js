@@ -31,12 +31,12 @@ export default function Home() {
         <section>
           <h2>Program</h2>
           <p>
-            SB 17:00-21:00 Odbiór numerów<br />
-            ND 07:00-09:00 Odbiór numerów<br />
-            ND 09:30 Oddprawa zawodników i oficjalna rozgrzewka<br />
-            ND 10:00 Start biegu<br />
-            ND 11:30-14:00 Dekoracje zawodników OPEN K i M<br />
-            ND 14:00 Ognisko ;-)
+            <b>SB 17:00-21:00</b> Odbiór numerów<br />
+            <b>ND 07:00-09:00</b> Odbiór numerów<br />
+            <b>ND 09:30</b> Oddprawa zawodników i oficjalna rozgrzewka<br />
+            <b>ND 10:00</b> Start biegu<br />
+            <b>ND 11:30-14:00</b> Dekoracje zawodników OPEN K i M<br />
+            <b>ND 14:00</b> Ognisko ;-)
           </p>
         </section>
 
