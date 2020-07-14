@@ -70,14 +70,17 @@ export default function Home() {
 
         <section>
           <h2>Trasa biegu</h2>
-          <div>
-            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
-          </div>
+          <p>
+          Trasa poprowadzona szlakami turystycznymi (drogi leśne w 90%, fragment piaszczysty i asfaltowy w 10%) wśród jurajskich skał i jaskiń oraz w okolicach Zamku Bąkowiec (Zawiercie-Skarżyce) z przewyższeniami ok. 120m.
+          </p>
           <p>
             Mapki:{" "}
             <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fd%2Fviewer%3Fmid%3D1301ERW5nOq3HLD1by-zOwgJs3vB0Qpn7%26fbclid%3DIwAR20SxcAvRpz8_VkwRwvZ2NN6xiPUL9T9vFVeoFqxlwo2_9RZXD34-B7sG8&h=AT1KBVl26oahcl17SQNMnAFYbPfeXc0RrYZnpPZmyqnfoh7WSuwj7s_WXioiqV9oGNkjfGv8jicCrrsgt09ut0oxYMf6cl9E8poipsPkfvSDbo2_OHRehzLTk8X3zDpKyK6dP9w5qcZj3d4CW3zxRz8LerCqfH6yU4EMi-wu5ElNfV3pySfNyx6wz3tnr_DeiSFp_arYi1dpzpQWH-ClKvIVi39pvBNvpcZEw-5T0rRC0i7Alq5_nZucTZCUye8uVM-GLicXJLJ09BwzLITmf7vCryfAJcpmHP5qGN8X9ZWrOqGje_neCUSCmSZG5PNjVWg1gvft595kVDme_6zM1l34ZIk7LZYndR6T2ACEmhyNQlU-fcxGGCrnN152GyEX-Gv56ndbdz7NRblU0YN_3d0Tda1Hl9ydsbeSO1-N64Jh8KDFsztHsoekuFoodsW1lSkO0XByPn5ELxFichlffp0pl9cUeyRWS54aUjmyT2wvwahnE2QkabGttLuEN9o-cal4NHzl70URW6g-jt-ADmAlYl2qH7tMbzHq9mzC2UuN5c2RzuSrsGvTBNT5is2ob4o40JlEVBacWQSTo-T6rE5K7hdHEAXiMZckM_Sc7Ok1zw" target="_blank">Google Maps</a>,{" "}
             <a href="https://www.traseo.pl/trasa/jurathlon-run-19-07-2020" target="_blank">Traseo</a>.
           </p>
+          <div>
+            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
+          </div>
         </section>
       </main>
 
