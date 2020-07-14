@@ -33,10 +33,10 @@ export default function Home() {
           <h2>Dojazd/parking</h2>
           <p>
             Biuro zawodów, start/meta: Piaseczno, koło Kroczyc<br />
-            Lokalizacja: <a href="https://goo.gl/maps/Zhf794ybZJJwkPEt9" target="_blank">https://goo.gl/maps/Zhf794ybZJJwkPEt9</a>
+            Lokalizacja: <a href="https://goo.gl/maps/Zhf794ybZJJwkPEt9" target="_blank">goo.gl/maps/Zhf794ybZJJwkPEt9</a>
           </p>
           <p>
-            Lokalizacja parkingu: <a href="https://goo.gl/maps/bezCNuvd1gVYqmpD7" target="_blank">https://goo.gl/maps/bezCNuvd1gVYqmpD7</a><br />
+            Lokalizacja parkingu: <a href="https://goo.gl/maps/bezCNuvd1gVYqmpD7" target="_blank">goo.gl/maps/bezCNuvd1gVYqmpD7</a><br />
           </p>
           <div>
             <a href="/jurathlon-dojazd1-big.jpg" target="_blank">
