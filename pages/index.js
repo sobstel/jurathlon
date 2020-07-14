@@ -46,7 +46,14 @@ export default function Home() {
           <p>
             (<a href="/jurathlon-dojazd1-big.jpg" target="_blank">powiększ</a>)
           </p>
-          <p>wkrótce</p>
+          <div>
+            <a href="/jurathlon-dojazd2-big.jpg" target="_blank">
+              <img src="/jurathlon-dojazd2.jpg" />
+            </a>
+          </div>
+          <p>
+            (<a href="/jurathlon-dojazd2-big.jpg" target="_blank">powiększ</a>)
+          </p>
         </section>
 
         <section>
