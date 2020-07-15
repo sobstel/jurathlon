@@ -34,10 +34,11 @@ export default function Home() {
             <b>SB 17:00-21:00</b> Odbiór numerów<br />
             <b>ND 07:00-09:00</b> Odbiór numerów<br />
             <b>ND 09:30</b> Odprawa zawodników<br />
-            <b>ND 09:45</b> Oficjalna rozgrzewka<br />
+            <b>ND 09:45</b> Rozgrzewka z Jakubem Jelonkiem<br />
             <b>ND 10:00</b> Start biegu<br />
-            <b>ND 11:30-14:00</b> Dekoracje zawodników OPEN K i M<br />
-            <b>ND 14:00</b> Ognisko ;-)
+            <b>ND 11:30-14:00</b> Dekoracje zawodników K i M<br />
+            <b>ND 14:00</b> Ognisko (prowiant we własnym zakresie)<br />
+            <b>ND 18:00</b> Zakończenie zawodów<br/>
           </p>
         </section>
 
@@ -73,6 +74,21 @@ export default function Home() {
           </div>
           <p>
             (<a href="/jurathlon-dojazd1-big.jpg" target="_blank">powiększ</a>)
+          </p>
+        </section>
+
+        <section>
+          <h2>Atrakcje</h2>
+          <p>
+            🏅Medale i statuetki <br/>
+            🎁 Nagrody niespodzianki<br/>
+            🎙Komentator live (Jakub Jelonek - olimpijczyk z Pekinu i Rio)<br/>
+            ⏱ Profesjonalny pomiar czasu<br/>
+            📸 Zdjęcia, 🎥 filmy z drona<br/>
+            ⛺️ Depozyt, przebieralnia dla Pań<br/>
+            🌴 Strefa relaksu (leżaki i hamaki), zabierzcie kocyki i hamaki jeśli ktoś posiada, bo drzew jest sporo do wykorzystania)<br/>
+            🔥 Ognisko po biegu (prowiant we własnym zakresie)<br/>
+            ☕️ Kawa z Bike Café (kupon rabatowy w każdym pakiecie startowym)<br/>
           </p>
         </section>
 
