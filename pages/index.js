@@ -93,6 +93,16 @@ export default function Home() {
         </section>
 
         <section>
+          <h2>Noclegi</h2>
+          <p>
+            <b>Ośrodek Wypoczynkowy Morsko Plus</b> (10% rabatu na noclegi w pokojach hotelowych na hasło: BIEG - SZEF).
+          </p>
+          <p>
+            <b>Hotel Villa Verde Congress &amp; Spa****</b> (10% rabatu od kwot standardowych na nocleg w hotelu na hasło JURATHLON).
+          </p>
+        </section>
+
+        <section>
           <h2>Trasa biegu</h2>
           <p>
             Trasa poprowadzona szlakami turystycznymi (drogi leśne w 90%, fragment piaszczysty i asfaltowy w 10%) wśród jurajskich skał i jaskiń oraz w okolicach Zamku Bąkowiec (Zawiercie-Skarżyce).
