@@ -16,105 +16,78 @@ export default function Home() {
         <section>
           <h2>19.07.2020<br />Kroczyce-Piaseczno</h2>
           <p className="links">
-              Listy startowe:{" "}
-              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b81b-7850-4a73-9de9-30faac1f25ca/registered" target="_blank">6km</a>,{" "}
-              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b82f-1454-49ca-ab6a-3602ac1f25ca/registered" target="_blank">12km</a>,{" "}
-              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b877-61e0-40f0-8ae4-30faac1f25ca/registered" target="_blank">18km</a>,{" "}
-              <a href="https://sportmaniacs.com/pl/races/jurathlon-run-2020/5ef1b88b-00dc-451a-8b6c-30faac1f25ca/registered" target="_blank">24km</a>.<br/>
-
-              Wydarzenie: <a href="https://www.facebook.com/events/2622123298003333/" target="_blank">facebook.com</a><br />
               Organizator: <a href="https://www.facebook.com/ActiveJura/" target="_blank">Active Jura</a><br />
               tel 603 353 850
           </p>
         </section>
 
         <section>
-          <h2>Program</h2>
+          <h2>Zwycięzcy</h2>
+          <p><b>6km (K)</b></p>
           <p>
-            <b>SB 17:00-21:00</b> Odbiór numerów<br />
-            <b>ND 07:00-09:00</b> Odbiór numerów<br />
-            <b>ND 09:30</b> Odprawa zawodników<br />
-            <b>ND 09:45</b> Rozgrzewka z Jakubem Jelonkiem<br />
-            <b>ND 10:00</b> Start biegu<br />
-            <b>ND 11:30-14:00</b> Dekoracje zawodników K i M<br />
-            <b>ND 14:00</b> Ognisko (prowiant we własnym zakresie)<br />
-            <b>ND 18:00</b> Zakończenie zawodów<br/>
+            1. Agnieszka Kapalska 32:13<br/>
+            2. Agata Łuszczyna 34:36<br />
+            3. Marysia Drozd 37:01<br/>
+          </p>
+          <p><b>6km (M)</b></p>
+          <p>
+            1. Łukasz Karpiński 25:18<br />
+            2. Tomasz Latos 26:21<br/>
+            3. Michał Gajewicz 26:59
+          </p>
+          <p><b>12km (K)</b></p>
+          <p>
+            1. Agnieszka Wilk 1:11:12<br />
+            2. Ewelina Niedbała 1:13:33<br/>
+            3. Justyna Kękuś 1:16:17<br />
+          </p>
+          <p><b>12km (M)</b></p>
+          <p>
+            1. Damian Brzeziński 52:44<br />
+            2. Stanisław Magiera 54:53<br />
+            3. Robert Wręczycki 55:14<br />
+          </p>
+          <p><b>18km (K)</b></p>
+          <p>
+            1. Justyna Adamus Kowalska 1:37:06<br />
+            2. Daria Piguła 2:03:13<br />
+            3. Wiola Wilk 2:06:43<br />
+          </p>
+          <p><b>18km (M)</b></p>
+          <p>
+            1. Andrzej Majewski 1:28:11<br />
+            2. Adam Banaśkiewicz 1:33:39<br />
+            3. Przemysław Cabaj 1:35:01<br />
+          </p>
+          <p><b>24km (K)</b></p>
+          <p>
+            1. Beata Lange 02:04:03<br />
+            2. Agnieszka Czyżewska 2:11:13<br />
+            3. Sylwia Skrzypek 2:11:51<br />
+          </p>
+          <p><b>24km (M)</b></p>
+          <p>
+            1. Grzegorz Pituch 1:44:42<br />
+            2. Dominik Sas 1:57:13<br />
+            3. Tamas Vojak 2:00:54<br />
           </p>
         </section>
 
         <section>
-          <h2>Dojazd/parking</h2>
+          <h2>Wyniki</h2>
           <p>
-            Lokalizacja parkingu: <a href="https://goo.gl/maps/bezCNuvd1gVYqmpD7" target="_blank">goo.gl/maps/bezCNuvd1gVYqmpD7</a><br />
-          </p>
-          <div>
-            <a href="/jurathlon-dojazd2-big.jpg" target="_blank">
-              <img src="/jurathlon-dojazd2.jpg" />
-            </a>
-          </div>
-          <p>
-            (<a href="/jurathlon-dojazd2-big.jpg" target="_blank">powiększ</a>)
+            <a href="/wyniki2020/JurathlonRun2020-6km.pdf" target="_blank">Wyniki 6km</a><br />
+            <a href="/wyniki2020/JurathlonRun2020-12km.pdf" target="_blank">Wyniki  12km</a><br />
+            <a href="/wyniki2020/JurathlonRun2020-18km.pdf" target="_blank">Wyniki  18km</a><br />
+            <a href="/wyniki2020/JurathlonRun2020-24km.pdf" target="_blank">Wyniki  24km</a><br/>
           </p>
         </section>
 
-        <section>
-          <h2>Biuro zawodów</h2>
-          <p>
-            Z parkingu idziemy wzdłuż betonowego płotu z oznaczeniami czerwonego szlaku.
-            Po około 500m po lewej stronie zobaczymy skałę Cydzownik za którą skręcamy w lewo i wąską ścieżką po kolejnych 300m dochodzimy do znajdującej się po lewej stronie polany <em>Motylkowe Wzgórze</em>,
-            gdzie w namiocie oznaczonym napisem BIURO ZAWODÓW będzie można odebrać pakiet startowy. Start/meta będzie zaraz obok biura.
-          </p>
-          <p>
-            Lokalizacja biura i startu/mety: <a href="https://goo.gl/maps/Zhf794ybZJJwkPEt9" target="_blank">goo.gl/maps/Zhf794ybZJJwkPEt9</a>
-          </p>
-          <div>
-            <a href="/jurathlon-dojazd1-big.jpg" target="_blank">
-              <img src="/jurathlon-dojazd1.jpg" />
-            </a>
-          </div>
-          <p>
-            (<a href="/jurathlon-dojazd1-big.jpg" target="_blank">powiększ</a>)
-          </p>
-        </section>
+
 
         <section>
-          <h2>Atrakcje</h2>
-          <p>
-            🏅Medale i statuetki <br/>
-            🎁 Nagrody niespodzianki<br/>
-            🎙Komentator live (Jakub Jelonek - olimpijczyk z Pekinu i Rio)<br/>
-            ⏱ Profesjonalny pomiar czasu<br/>
-            📸 Zdjęcia, 🎥 filmy z drona<br/>
-            ⛺️ Depozyt, przebieralnia dla Pań<br/>
-            🌴 Strefa relaksu (leżaki i hamaki), zabierzcie kocyki i hamaki jeśli ktoś posiada, bo drzew jest sporo do wykorzystania)<br/>
-            🔥 Ognisko po biegu (prowiant we własnym zakresie)<br/>
-            ☕️ Kawa z Bike Café (kupon rabatowy w każdym pakiecie startowym)<br/>
-          </p>
-        </section>
-
-        <section>
-          <h2>Noclegi</h2>
-          <p>
-            <b>Ośrodek Wypoczynkowy Morsko Plus</b> (10% rabatu na noclegi w pokojach hotelowych na hasło: BIEG - SZEF).
-          </p>
-          <p>
-            <b>Hotel Villa Verde Congress &amp; Spa****</b> (10% rabatu od kwot standardowych na nocleg w hotelu na hasło JURATHLON).
-          </p>
-        </section>
-
-        <section>
-          <h2>Trasa biegu</h2>
-          <p>
-            Trasa poprowadzona szlakami turystycznymi (drogi leśne w 90%, fragment piaszczysty i asfaltowy w 10%) wśród jurajskich skał i jaskiń oraz w okolicach Zamku Bąkowiec (Zawiercie-Skarżyce).
-          </p>
-          <p>
-            Mapki:{" "}
-            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fd%2Fviewer%3Fmid%3D1301ERW5nOq3HLD1by-zOwgJs3vB0Qpn7%26fbclid%3DIwAR20SxcAvRpz8_VkwRwvZ2NN6xiPUL9T9vFVeoFqxlwo2_9RZXD34-B7sG8&h=AT1KBVl26oahcl17SQNMnAFYbPfeXc0RrYZnpPZmyqnfoh7WSuwj7s_WXioiqV9oGNkjfGv8jicCrrsgt09ut0oxYMf6cl9E8poipsPkfvSDbo2_OHRehzLTk8X3zDpKyK6dP9w5qcZj3d4CW3zxRz8LerCqfH6yU4EMi-wu5ElNfV3pySfNyx6wz3tnr_DeiSFp_arYi1dpzpQWH-ClKvIVi39pvBNvpcZEw-5T0rRC0i7Alq5_nZucTZCUye8uVM-GLicXJLJ09BwzLITmf7vCryfAJcpmHP5qGN8X9ZWrOqGje_neCUSCmSZG5PNjVWg1gvft595kVDme_6zM1l34ZIk7LZYndR6T2ACEmhyNQlU-fcxGGCrnN152GyEX-Gv56ndbdz7NRblU0YN_3d0Tda1Hl9ydsbeSO1-N64Jh8KDFsztHsoekuFoodsW1lSkO0XByPn5ELxFichlffp0pl9cUeyRWS54aUjmyT2wvwahnE2QkabGttLuEN9o-cal4NHzl70URW6g-jt-ADmAlYl2qH7tMbzHq9mzC2UuN5c2RzuSrsGvTBNT5is2ob4o40JlEVBacWQSTo-T6rE5K7hdHEAXiMZckM_Sc7Ok1zw" target="_blank">Google Maps</a>,{" "}
-            <a href="https://www.traseo.pl/trasa/jurathlon-run-19-07-2020" target="_blank">Traseo</a>.
-          </p>
-          <div>
-            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
-          </div>
+          <h2>Sponsorzy i patronat</h2>
+          <img src="/sponsors.jpg" />
         </section>
       </main>
 
@@ -154,6 +127,9 @@ export default function Home() {
         }
         p {
           text-align: center;
+        }
+        p.nocenter {
+          text-align: left;
         }
 
         .title {
