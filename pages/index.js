@@ -15,8 +15,11 @@ export default function Home() {
 
         <section>
           <h2>19.07.2020<br />Kroczyce-Piaseczno</h2>
+          <div className="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnqjF9choYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <p className="links">
-              Organizator: <a href="https://www.facebook.com/ActiveJura/" target="_blank">Active Jura</a><br />
+              <a href="https://www.facebook.com/ActiveJura/" target="_blank">facebook.com/ActiveJura</a><br />
               tel 603 353 850
           </p>
         </section>
@@ -144,6 +147,19 @@ export default function Home() {
 
         a {
           color: #877969;
+        }
+
+        .videoWrapper {
+          position: relative;
+          padding-bottom: 56.25%; /* 16:9 */
+          height: 0;
+        }
+        .videoWrapper iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
         }
       `}</style>
 
