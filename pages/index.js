@@ -18,10 +18,12 @@ export default function Home() {
           <div className="videoWrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qnqjF9choYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <p className="links">
-              <a href="https://www.facebook.com/ActiveJura/" target="_blank">facebook.com/ActiveJura</a><br />
-              tel 603 353 850
-          </p>
+        </section>
+
+        <section>
+          <h2>Zdjęcia</h2>
+          <p><img src="/jurathlon-57.jpg" /></p>
+          <p><a href="https://www.facebook.com/media/set/?vanity=ActiveJura&set=a.428643134626759" target="_blank">więcej zdjęć</a></p>
         </section>
 
         <section>
@@ -86,11 +88,17 @@ export default function Home() {
           </p>
         </section>
 
-
-
         <section>
           <h2>Sponsorzy i patronat</h2>
           <img src="/sponsors.jpg" />
+        </section>
+
+        <section>
+          <h2>Active Jura</h2>
+          <p className="links">
+              <a href="https://www.facebook.com/ActiveJura/" target="_blank">facebook.com/ActiveJura</a><br />
+              tel 603 353 850
+          </p>
         </section>
       </main>
 
