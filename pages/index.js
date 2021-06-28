@@ -15,16 +15,18 @@ export default function Home() {
 
         <section>
           <h2>25.07.2021<br />Kroczyce-Piaseczno</h2>
+          <p><strong>6km / 12km / 21km</strong></p>
           <p>szczegóły wkrótce</p>
         </section>
 
         <section>
+          <h2>POPRZEDNIA EDYCJA (2020)</h2>
+          <div className="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnqjF9choYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
           <p><img src="/jurathlon-57.jpg" /></p>
-        </section>
-
-        <section>
-          <h2>Wyniki 2020</h2>
           <p>
+            Wyniki:&nbsp;
             <a href="/wyniki2020/JurathlonRun2020-6km.pdf" target="_blank">6km</a>,&nbsp;
             <a href="/wyniki2020/JurathlonRun2020-12km.pdf" target="_blank">12km</a>,&nbsp;
             <a href="/wyniki2020/JurathlonRun2020-18km.pdf" target="_blank">18km</a>,&nbsp;
