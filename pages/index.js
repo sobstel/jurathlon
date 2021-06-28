@@ -4,93 +4,32 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Jurathlon Run 2020</title>
+        <title>Jurathlon</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          <img src="/jurathlon-logo-full.jpg" />
+          <img src="/jurathlon-logo-2021-full.jpg" />
         </h1>
 
         <section>
-          <h2>19.07.2020<br />Kroczyce-Piaseczno</h2>
-          <div className="videoWrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnqjF9choYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <h2>25.07.2021<br />Kroczyce-Piaseczno</h2>
+          <p>szczegóły wkrótce</p>
         </section>
 
         <section>
-          <h2>Zdjęcia</h2>
           <p><img src="/jurathlon-57.jpg" /></p>
-          <p><a href="https://www.facebook.com/media/set/?vanity=ActiveJura&set=a.428643134626759" target="_blank">więcej zdjęć</a></p>
         </section>
 
         <section>
-          <h2>Zwycięzcy</h2>
-          <p><b>6km (K)</b></p>
+          <h2>Wyniki 2020</h2>
           <p>
-            1. Agnieszka Kapalska 32:13<br/>
-            2. Agata Łuszczyna 34:36<br />
-            3. Marysia Drozd 37:01<br/>
+            <a href="/wyniki2020/JurathlonRun2020-6km.pdf" target="_blank">6km</a>,&nbsp;
+            <a href="/wyniki2020/JurathlonRun2020-12km.pdf" target="_blank">12km</a>,&nbsp;
+            <a href="/wyniki2020/JurathlonRun2020-18km.pdf" target="_blank">18km</a>,&nbsp;
+            <a href="/wyniki2020/JurathlonRun2020-24km.pdf" target="_blank">24km</a>
           </p>
-          <p><b>6km (M)</b></p>
-          <p>
-            1. Łukasz Karpiński 25:18<br />
-            2. Tomasz Latos 26:21<br/>
-            3. Michał Gajewicz 26:59
-          </p>
-          <p><b>12km (K)</b></p>
-          <p>
-            1. Agnieszka Wilk 1:11:12<br />
-            2. Ewelina Niedbała 1:13:33<br/>
-            3. Justyna Kękuś 1:16:17<br />
-          </p>
-          <p><b>12km (M)</b></p>
-          <p>
-            1. Damian Brzeziński 52:44<br />
-            2. Stanisław Magiera 54:53<br />
-            3. Robert Wręczycki 55:14<br />
-          </p>
-          <p><b>18km (K)</b></p>
-          <p>
-            1. Justyna Adamus Kowalska 1:37:06<br />
-            2. Daria Piguła 2:03:13<br />
-            3. Wiola Wilk 2:06:43<br />
-          </p>
-          <p><b>18km (M)</b></p>
-          <p>
-            1. Andrzej Majewski 1:28:11<br />
-            2. Adam Banaśkiewicz 1:33:39<br />
-            3. Przemysław Cabaj 1:35:01<br />
-          </p>
-          <p><b>24km (K)</b></p>
-          <p>
-            1. Beata Lange 02:04:03<br />
-            2. Agnieszka Czyżewska 2:11:13<br />
-            3. Sylwia Skrzypek 2:11:51<br />
-          </p>
-          <p><b>24km (M)</b></p>
-          <p>
-            1. Grzegorz Pituch 1:44:42<br />
-            2. Dominik Sas 1:57:13<br />
-            3. Tamas Vojak 2:00:54<br />
-          </p>
-        </section>
-
-        <section>
-          <h2>Wyniki</h2>
-          <p>
-            <a href="/wyniki2020/JurathlonRun2020-6km.pdf" target="_blank">Wyniki 6km</a><br />
-            <a href="/wyniki2020/JurathlonRun2020-12km.pdf" target="_blank">Wyniki  12km</a><br />
-            <a href="/wyniki2020/JurathlonRun2020-18km.pdf" target="_blank">Wyniki  18km</a><br />
-            <a href="/wyniki2020/JurathlonRun2020-24km.pdf" target="_blank">Wyniki  24km</a><br/>
-          </p>
-        </section>
-
-        <section>
-          <h2>Sponsorzy i patronat</h2>
-          <img src="/sponsors.jpg" />
         </section>
 
         <section>
