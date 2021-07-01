@@ -19,7 +19,7 @@ export default function Home() {
           <p>
             <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register">ZAPISZ MNIE</a>
           </p>
-          <p>Więcej szczegółów wkróce...</p>
+          <p>Więcej szczegółów wkrótce...</p>
         </section>
 
         <section>
