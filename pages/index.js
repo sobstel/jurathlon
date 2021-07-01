@@ -10,13 +10,16 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          <img src="/jurathlon-logo-2021-full.jpg" />
+          <img src="/jurathlon-logo.png" />
         </h1>
 
         <section>
           <h2>25.07.2021<br />Kroczyce-Piaseczno</h2>
-          <p><strong>6km / 12km / 21km</strong></p>
-          <p>szczegóły wkrótce</p>
+          <p>Biegi: <strong>6km</strong> / <strong>12km</strong> / <strong>21km</strong>.<br />Nordic Walking: 6km.</p>
+          <p>
+            <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register">ZAPISZ MNIE</a>
+          </p>
+          <p>Więcej szczegółów wkróce...</p>
         </section>
 
         <section>
@@ -87,7 +90,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
+          /* font-size: 4rem; */
         }
 
         img {
@@ -95,7 +98,19 @@ export default function Home() {
         }
 
         a {
-          color: #877969;
+          color: #8a6d69;
+        }
+        a.register {
+          display: inline-block;
+          padding: 0.5rem 1rem;
+          background: #8a6d69;
+          color: #ccc;
+          border-radius: 0.25rem;
+          text-decoration: none;
+          letter-spacing: 1px;
+        }
+        a.register:hover {
+          background: #ac8f8b;
         }
 
         .videoWrapper {
@@ -118,7 +133,7 @@ export default function Home() {
           padding: 0;
           margin: 0;
           font-family: monospace;
-          color: #544737;
+          color: #240803;
           font-size: 1.1rem;
           line-height: 1.5;
         }
