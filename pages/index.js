@@ -15,7 +15,7 @@ export default function Home() {
 
         <section>
           <h2>25.07.2021<br />Kroczyce-Piaseczno</h2>
-          <p>Biegi: <strong>6km</strong> / <strong>12km</strong> / <strong>21km</strong>.<br />Nordic Walking: 6km.</p>
+          <p>Biegi: <strong>6km</strong> / <strong>12km</strong> / <strong>21km</strong>.<br />Nordic Walking: <strong>6km</strong>.</p>
           <p>
             <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register">ZAPISZ MNIE</a>
           </p>
@@ -107,7 +107,6 @@ export default function Home() {
           color: #ccc;
           border-radius: 0.25rem;
           text-decoration: none;
-          letter-spacing: 1px;
         }
         a.register:hover {
           background: #ac8f8b;
