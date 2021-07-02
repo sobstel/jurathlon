@@ -16,9 +16,9 @@ export default function Home() {
         <section>
           <h2>25.07.2021<br />Kroczyce-Piaseczno</h2>
           <p>Biegi: <strong>6km</strong> / <strong>12km</strong> / <strong>21km</strong>.<br />Nordic Walking: <strong>6km</strong>.</p>
-          <p>
+          <!--<p>
             <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register">ZAPISZ MNIE</a>
-          </p>
+          </p>-->
           <p>Więcej szczegółów wkrótce...</p>
         </section>
 
