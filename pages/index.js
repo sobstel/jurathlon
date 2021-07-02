@@ -15,11 +15,82 @@ export default function Home() {
 
         <section>
           <h2>25.07.2021<br />Kroczyce-Piaseczno</h2>
-          <p>Biegi: <strong>6km</strong> / <strong>12km</strong> / <strong>21km</strong>.<br />Nordic Walking: <strong>6km</strong>.</p>
+          <ul>
+            <li>Wokół Cydzownika - BIEG <strong>6km</strong></li>
+            <li>Przez Dziadową Skałę - BIEG <strong>12km</strong></li>
+            <li>Pod Lechworem - BIEG <strong>21km</strong></li>
+            <li>Nietoperzowy Marsz - NORDIC WALKING <strong>6km</strong></li>
+          </ul>
           {/*<p>
             <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register">ZAPISZ MNIE</a>
           </p>*/}
-          <p>Więcej szczegółów wkrótce...</p>
+          <p className="nocenter">Oficjalne zapisy otwieramy w <strong>niedzielę, 4-go lipca 2021r</strong>.</p>
+        </section>
+
+        <section>
+          <h2>Trasa 6km/12km</h2>
+          <div>
+            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
+          </div>
+          <p className="nocenter">Bieg 12km to dwie pętle 6km.</p>
+        </section>
+
+        <section>
+          <h2>Trasa 21km (wstępny projekt)</h2>
+          <p className="nocenter">Przebieg trasy może ulec zmianie. Wciąż jeszcze biegamy, pedałujemy i&nbsp;testujemy ;-)  Jednak jedno jest pewne, za wszelką cenę na dystansie 21km chcemy uniknąć kilku pętli.</p>
+          <div>
+            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/216965/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
+          </div>
+        </section>
+
+        <section>
+          <h2>Atrakcje</h2>
+          <p className="nocenter">
+            🏅 Medale i statuetki<br/>
+            🎁 Nagrody niespodzianki<br/>
+            🎙 Komentator live (Stanisław Wrzesiński)<br/>
+            ⏱ Profesjonalny pomiar czasu<br/>
+            {/*📸 Zdjęcia, 🎥 filmy z drona<br/> */}
+            ⛺️ Depozyt, przebieralnia<br/>
+            🌴 Strefa relaksu (leżaki i hamaki){/*, zabierzcie kocyki i hamaki jeśli ktoś posiada, bo drzew jest sporo do wykorzystania)*/}<br/>
+            🔥 Ognisko po biegu (prowiant we własnym zakresie)<br/>
+            ☕️ Kawa z Bike Café (kupon rabatowy w każdym pakiecie startowym)<br/>
+          </p>
+          <p className="nocenter">
+            ... i kilka innych rzeczy, których jesteśmy w trakcie potwierdzania
+          </p>
+        </section>
+
+        <section>
+          <h2>Program</h2>
+          <p className="nocenter"><strong>SOBOTA 24.07</strong></p>
+          <p className="nocenter">
+            <b>18:00-20:00</b> Odbiór numerów<br />
+          </p>
+          <p className="nocenter"><strong>NIEDZIELA 25.07</strong></p>
+          <p className="nocenter">
+            <b>07:30-09:30</b> Odbiór numerów<br />
+            <b>09:45</b> Rozgrzewka i odprawa techniczna<br />
+            <b>10:00</b> Start (w odstępach co ok. 1 min)<br />
+            <b>od ok. 11:00</b> Ognisko (prowiant we własnym zakresie)<br />
+            <b>13:30</b> Dekoracja zwycięzców K i M (dla wszystkich dystansów)<br />
+            <b>16:00</b> Zakończenie imprezy
+          </p>
+        </section>
+
+        <section>
+          <h2>Lokalizacja</h2>
+          <p className="nocenter">
+            Lokalizacja biura zawodów i startu/mety: <a href="https://goo.gl/maps/Zhf794ybZJJwkPEt9" target="_blank">goo.gl/maps/Zhf794ybZJJwkPEt9</a>
+          </p>
+          <div>
+            <a href="/jurathlon-dojazd2-big.jpg" target="_blank">
+              <img src="/jurathlon-dojazd2.jpg" />
+            </a>
+          </div>
+          <p>
+            (<a href="/jurathlon-dojazd2-big.jpg" target="_blank">powiększ</a>)
+          </p>
         </section>
 
         <section>
