@@ -40,7 +40,7 @@ export default function Home() {
             }
           </div>
           <ul>
-            <li><a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" target="_blank">Zapisy na Jurathlon 2021</a></li>
+            {registrationOpened && <li><a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" target="_blank">Zapisy na Jurathlon 2021</a></li>}
             <li><a href="https://www.facebook.com/events/892557964631173/" target="_blank">Wydarzenie Jurathlon 2021 na Facebooku</a></li>
           </ul>
         </section>
