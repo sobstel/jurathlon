@@ -1,6 +1,8 @@
 import Head from 'next/head'
 
 export default function Home() {
+  const registrationOpened = new Date('Jul 04 2021') - new Date() < 0;
+
   return (
     <div className="container">
       <Head>
@@ -16,15 +18,31 @@ export default function Home() {
         <section>
           <h2>25.07.2021<br />Kroczyce-Piaseczno</h2>
           <ul>
-            <li>Wokół Cydzownika - BIEG <strong>6km</strong></li>
-            <li>Przez Dziadową Skałę - BIEG <strong>12km</strong></li>
-            <li>Pod Lechworem - BIEG <strong>21km</strong></li>
-            <li>Nietoperzowy Marsz - NORDIC WALKING <strong>6km</strong></li>
+            <li>Wokół Cydzownika - BIEG <strong>6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87b4-8a24-4ecd-b60a-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
+            <li>Przez Dziadową Skałę - BIEG <strong>12km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87e5-4110-4bfd-b398-075eac1f0c87" target="_blank">zapisz mnie</a>)</span>}</li>
+            <li>Pod Lechworem - BIEG <strong>21km</strong>{registrationOpened && <span>, 59zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87fe-71b0-449e-b6fb-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
+            <li>Nietoperzowy Marsz - NORDIC WALKING <strong>6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd88ae-84c4-4e8a-8c26-070aac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
           </ul>
-          {/*<p>
-            <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register">ZAPISZ MNIE</a>
-          </p>*/}
-          <p className="nocenter">Oficjalne zapisy otwieramy w <strong>niedzielę, 4-go lipca 2021r</strong>.</p>
+          <div style={{paddingLeft: 2.75 + 'rem'}}>
+            {registrationOpened ?
+                <div>
+                  <p className="nocenter">
+                    <em>Pierwsze 20 osób dla każdego biegu i pierwsze 10 osób dla NW, zapisuje się ze zniżką 10zł.</em>
+                  </p>
+                  <p className="nocenter">
+                    <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register">ZAPISZ MNIE</a>
+                  </p>
+                </div>
+                :
+                <p className="nocenter">
+                  Oficjalne zapisy otwieramy w <strong>niedzielę, 4-go lipca 2021r</strong>.
+                </p>
+            }
+          </div>
+          <ul>
+            <li><a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" target="_blank">Zapisy na Jurathlon 2021</a></li>
+            <li><a href="https://www.facebook.com/events/892557964631173/" target="_blank">Wydarzenie Jurathlon 2021 na Facebooku</a></li>
+          </ul>
         </section>
 
         <section>
@@ -88,13 +106,10 @@ export default function Home() {
               <img src="/jurathlon-dojazd2.jpg" />
             </a>
           </div>
-          <p>
-            (<a href="/jurathlon-dojazd2-big.jpg" target="_blank">powiększ</a>)
-          </p>
         </section>
 
         <section>
-          <h2>POPRZEDNIA EDYCJA (2020)</h2>
+          <h2>Jurathlon Run 2020</h2>
           <div className="videoWrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qnqjF9choYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
