@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
-  const registrationOpened = new Date('Jul 04 2021') - new Date() < 0;
+  const registrationOpened = new Date('Jul 04 2021 00:01:00') - new Date() < 0;
 
   return (
     <div className="container">
