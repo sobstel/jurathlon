@@ -30,7 +30,7 @@ export default function Home() {
                     <em>Pierwsze 20 osób dla każdego biegu i pierwsze 10 osób dla NW, zapisuje się ze zniżką 10zł.</em>
                   </p>
                   <p className="nocenter">
-                    <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register">ZAPISZ MNIE</a>
+                    <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register" target="_blank">ZAPISZ MNIE</a>
                   </p>
                 </div>
                 :
