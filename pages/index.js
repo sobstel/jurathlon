@@ -22,10 +22,10 @@ export default function Home() {
           </p>
           <div className="banner">
             <ul>
-              <li>Wokół Cydzownika - BIEG <strong>6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87b4-8a24-4ecd-b60a-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
-              <li>Przez Dziadową Skałę - BIEG <strong>12km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87e5-4110-4bfd-b398-075eac1f0c87" target="_blank">zapisz mnie</a>)</span>}</li>
-              <li>Pod Lechworem - BIEG <strong>21km</strong>{registrationOpened && <span>, 59zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87fe-71b0-449e-b6fb-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
-              <li>Nietoperzowy Marsz - NORDIC WALKING <strong>6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd88ae-84c4-4e8a-8c26-070aac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
+              <li>Wokół Cydzownika - <strong>BIEG 6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87b4-8a24-4ecd-b60a-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
+              <li>Przez Dziadową Skałę - <strong>BIEG 12km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87e5-4110-4bfd-b398-075eac1f0c87" target="_blank">zapisz mnie</a>)</span>}</li>
+              <li>Pod Lechworem - <strong>BIEG 21km</strong>{registrationOpened && <span>, 59zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87fe-71b0-449e-b6fb-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
+              <li>Nietoperzowy Marsz - <strong>NORDIC WALKING 6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd88ae-84c4-4e8a-8c26-070aac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
             </ul>
             <div style={{paddingLeft: 2.75 + 'rem'}}>
               {registrationOpened ?
@@ -115,7 +115,7 @@ export default function Home() {
         <section>
           <h2>Jurathlon Run 2020</h2>
           <div className="videoWrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnqjF9choYc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnqjF9choYc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
           <p><img src="/jurathlon-57.jpg" /></p>
           <p>
