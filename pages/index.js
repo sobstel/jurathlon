@@ -17,34 +17,38 @@ export default function Home() {
 
         <section>
           <h2>25.07.2021<br />Kroczyce-Piaseczno</h2>
-          <ul>
-            <li>Wokół Cydzownika - BIEG <strong>6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87b4-8a24-4ecd-b60a-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
-            <li>Przez Dziadową Skałę - BIEG <strong>12km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87e5-4110-4bfd-b398-075eac1f0c87" target="_blank">zapisz mnie</a>)</span>}</li>
-            <li>Pod Lechworem - BIEG <strong>21km</strong>{registrationOpened && <span>, 59zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87fe-71b0-449e-b6fb-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
-            <li>Nietoperzowy Marsz - NORDIC WALKING <strong>6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd88ae-84c4-4e8a-8c26-070aac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
-          </ul>
-          <div style={{paddingLeft: 2.75 + 'rem'}}>
-            {registrationOpened ?
-                <div>
+          <p className="nocenter">
+            Leśne ścieżki. Jurajskie skały i jaskinie. Zamek Bąkowiec. Szlak Orlich Gniazd. Piękne widoki. Dużo miejsca na piknik dla rodzin i kibiców na malowniczo położonym Motylkowym Wzgórzu. Kameralna atmosfera. Organizowane przez miłośników Jury, biegania i aktywnego trybu życia. Zapraszamy!
+          </p>
+          <div className="banner">
+            <ul>
+              <li>Wokół Cydzownika - BIEG <strong>6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87b4-8a24-4ecd-b60a-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
+              <li>Przez Dziadową Skałę - BIEG <strong>12km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87e5-4110-4bfd-b398-075eac1f0c87" target="_blank">zapisz mnie</a>)</span>}</li>
+              <li>Pod Lechworem - BIEG <strong>21km</strong>{registrationOpened && <span>, 59zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd87fe-71b0-449e-b6fb-0709ac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
+              <li>Nietoperzowy Marsz - NORDIC WALKING <strong>6km</strong>{registrationOpened && <span>, 49zł (<a href="https://sportmaniacs.com/pl/services/inscription/auth/jurathlon-run-2021/60dd88ae-84c4-4e8a-8c26-070aac1f13ab" target="_blank">zapisz mnie</a>)</span>}</li>
+            </ul>
+            <div style={{paddingLeft: 2.75 + 'rem'}}>
+              {registrationOpened ?
+                  <div>
+                    <p className="nocenter">
+                      <em>Pierwsze 20 osób dla każdego biegu i pierwsze 10 osób dla NW, zapisuje się ze zniżką 10zł.</em>
+                    </p>
+                    <p className="nocenter">
+                      <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register" target="_blank">ZAPISZ MNIE</a>
+                    </p>
+                  </div>
+                  :
                   <p className="nocenter">
-                    <em>Pierwsze 20 osób dla każdego biegu i pierwsze 10 osób dla NW, zapisuje się ze zniżką 10zł.</em>
+                    Oficjalne zapisy otwieramy w <strong>niedzielę, 4-go lipca 2021r</strong>.
                   </p>
-                  <p className="nocenter">
-                    <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register" target="_blank">ZAPISZ MNIE</a>
-                  </p>
-                </div>
-                :
-                <p className="nocenter">
-                  Oficjalne zapisy otwieramy w <strong>niedzielę, 4-go lipca 2021r</strong>.
-                </p>
-            }
+              }
+            </div>
           </div>
-          <ul>
-            {registrationOpened && <li><a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" target="_blank">Zapisy na Jurathlon 2021</a></li>}
-            <li><a href="https://www.facebook.com/events/892557964631173/" target="_blank">Wydarzenie Jurathlon 2021 na Facebooku</a></li>
-          </ul>
+          <p className="nocenter">
+            {registrationOpened && <><a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" target="_blank">Zapisy na Jurathlon 2021</a><br /></>}
+            <a href="https://www.facebook.com/events/892557964631173/" target="_blank">Wydarzenie Jurathlon 2021 na Facebooku</a><br/>
+          </p>
         </section>
-
         <section>
           <h2>Trasa 6km/12km</h2>
           <div>
@@ -197,6 +201,12 @@ export default function Home() {
         }
         a.register:hover {
           background: #ac8f8b;
+        }
+
+        .banner {
+          background: #baad9d;
+          border-radius: 5px;
+          padding: 1rem 0;
         }
 
         .videoWrapper {
