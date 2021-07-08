@@ -29,14 +29,9 @@ export default function Home() {
             </ul>
             <div style={{paddingLeft: 2.75 + 'rem'}}>
               {registrationOpened ?
-                  <div>
-                    <p className="nocenter">
-                      <em>Pierwsze 20 osób dla każdego biegu i pierwsze 10 osób dla NW, zapisuje się ze zniżką 10zł.</em>
-                    </p>
-                    <p className="nocenter">
-                      <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register" target="_blank">ZAPISZ MNIE</a>
-                    </p>
-                  </div>
+                  <p className="nocenter">
+                    <a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" className="register" target="_blank">ZAPISZ MNIE</a>
+                  </p>
                   :
                   <p className="nocenter">
                     Oficjalne zapisy otwieramy w <strong>niedzielę, 4-go lipca 2021r</strong>.
