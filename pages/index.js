@@ -45,7 +45,7 @@ export default function Home() {
           </p>
         </section>
         <section>
-          <h2>Trasa 6km/12km</h2>
+          <h2>Pętla 6km (↑↓ 150m)</h2>
           <div>
             <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
           </div>
@@ -53,10 +53,9 @@ export default function Home() {
         </section>
 
         <section>
-          <h2>Trasa 21km (wstępny projekt)</h2>
-          <p className="nocenter">Przebieg trasy może ulec zmianie. Wciąż jeszcze biegamy, pedałujemy i&nbsp;testujemy ;-)  Jednak jedno jest pewne, za wszelką cenę na dystansie 21km chcemy uniknąć kilku pętli.</p>
+          <h2>Trasa 21km (↑↓ 460m)</h2>
           <div>
-            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/216965/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
+            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/218037/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
           </div>
         </section>
 
