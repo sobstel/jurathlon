@@ -126,6 +126,7 @@ export default function Home() {
           <p className="links">
               Stowarzyszenie Active Jura, Kroczyce<br />
               <a href="https://www.facebook.com/ActiveJura/" target="_blank">facebook.com/ActiveJura</a><br />
+              info&#64;activejura&#46;pl<br />
               tel 603 353 850
           </p>
         </section>
