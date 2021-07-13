@@ -44,20 +44,6 @@ export default function Home() {
             <a href="https://www.facebook.com/events/892557964631173/" target="_blank">Wydarzenie Jurathlon 2021 na Facebooku</a><br/>
           </p>
         </section>
-        <section>
-          <h2>Pętla 6km (↑↓ 150m)</h2>
-          <div>
-            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
-          </div>
-          <p className="nocenter">Bieg 12km to dwie pętle 6km.</p>
-        </section>
-
-        <section>
-          <h2>Trasa 21km (↑↓ 460m)</h2>
-          <div>
-            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/218037/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
-          </div>
-        </section>
 
         <section>
           <h2>Atrakcje</h2>
@@ -66,11 +52,12 @@ export default function Home() {
             🎁 Nagrody niespodzianki<br/>
             🎙 Komentator live (Stanisław Wrzesiński)<br/>
             ⏱ Profesjonalny pomiar czasu<br/>
-            {/*📸 Zdjęcia, 🎥 filmy z drona<br/> */}
+            📸 Zdjęcia, 🎥 filmy z drona<br/>
             ⛺️ Depozyt, przebieralnia<br/>
-            🌴 Strefa relaksu (leżaki i hamaki){/*, zabierzcie kocyki i hamaki jeśli ktoś posiada, bo drzew jest sporo do wykorzystania)*/}<br/>
+            🌴 Strefa relaksu (leżaki i hamaki), zabierzcie kocyki i hamaki jeśli ktoś posiada, bo drzew jest sporo do wykorzystania<br/>
+            🥔 Pieczonki - lokalna specjalność na bazie ziemniaków przyrządzana w specjalnym kociołku (przygotowaniem zajmie się Szlachta Skarżycka!)<br/>
             🔥 Ognisko po biegu (prowiant we własnym zakresie)<br/>
-            ☕️ Kawa z Bike Café (kupon rabatowy w każdym pakiecie startowym)<br/>
+            🍦 Lody włoskie, 🧇 gofry, 🥤 lemoniada, ☕️ kawa<br/>
           </p>
           <p className="nocenter">
             ... i kilka innych rzeczy, których jesteśmy w trakcie potwierdzania
@@ -85,14 +72,71 @@ export default function Home() {
           </p>
           <p className="nocenter"><strong>NIEDZIELA 25.07</strong></p>
           <p className="nocenter">
-            <b>07:30-09:30</b> Odbiór numerów<br />
-            <b>09:45</b> Rozgrzewka i odprawa techniczna<br />
-            <b>10:00</b> Start (w odstępach co ok. 1 min)<br />
-            <b>od ok. 11:00</b> Ognisko (prowiant we własnym zakresie)<br />
-            <b>13:30</b> Dekoracja zwycięzców K i M (dla wszystkich dystansów)<br />
+            <b>07:30-09:30</b> Odbiór numerów, zapisy na biegi dla dzieci<br />
+            <b>09:30-10:00</b> Biegi dla dzieci<br />
+            <b>10:15</b> Rozgrzewka i odprawa techniczna<br />
+            <b>10:30</b> Start (w odstępach co ok. 1 min)<br />
+            <b>od ok. 11:30</b> Ognisko (prowiant we własnym zakresie)<br />
+            <b>14:00</b> Dekoracja zwycięzców K i M (dla wszystkich dystansów)<br />
+            <b>14:30</b> Losowanie nagród wśród obecnych uczestników zawodów<br />
             <b>16:00</b> Zakończenie imprezy
           </p>
         </section>
+
+
+        <section>
+          <h2>Bieg/marsz 6km (↑↓ 150m)</h2>
+          <div>
+            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
+          </div>
+          <p className="nocenter">
+            Punkty odżywczy: ok. 2km (obok Zamku Bąkowiec) - woda
+          </p>
+        </section>
+
+        <section>
+          <h2>Bieg 12km (↑↓ 300m)</h2>
+          <p className="nocenter">
+            Bieg 12km to dwie pętle 6km. Trasę zobacz powyżej (6km).
+          </p>
+          <p className="nocenter">
+            Punkty odżywcze:<br/>
+              - ok. 2km (obok Zamku Bąkowiec) - woda<br />
+              - ok. 6km (Motylkowe Wzgórze) - woda, banany
+          </p>
+        </section>
+
+        <section>
+          <h2>Bieg 21km (↑↓ 460m)</h2>
+          <div>
+            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/218037/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
+          </div>
+          <p className="nocenter">
+            Punkty odżywcze:<br/>
+            - ok. 9km (Skały Rzędkowickie) - woda, banany<br />
+            - ok. 15km (obok Zamku Bąkowiec) - woda
+          </p>
+        </section>
+
+        <section>
+          <h2>Biegi dla dzieci</h2>
+          <p className="nocenter">
+            Pierwsza grupa - 5-7 lat (roczniki 2016-2014) - dystans 100m<br />
+            Druga grupa - 8-11 lat (roczniki 2013-2010) - dystans 200m<br />
+            Trzecia grupa - 12-15 lat (roczniki 2009-2006) - dystans 450 m<br />
+          </p>
+          <p className="nocenter">
+            Limit 20 dzieci w każdej grupie - decyduje kolejność zgłoszeń.
+          </p>
+          <p className="nocenter">
+            Wpisowe: 10zł.
+          </p>
+          <p className="nocenter">
+            Warunkiem uczestnictwa w biegach dla dzieci jest wypełnienie formularza zgłoszeniowego przez rodzica lub opiekuna prawnego, wyrażającego zgodę na udział w biegu osoby niepełnoletniej i biorącego za nią pełną odpowiedzialność.
+            Podczas zapisów opiekun uczestnika musi okazać dokument umożliwiający potwierdzenie tożsamości.
+          </p>
+        </section>
+
 
         <section>
           <h2>Lokalizacja</h2>
@@ -105,6 +149,7 @@ export default function Home() {
             </a>
           </div>
         </section>
+
 
         <section>
           <h2>Jurathlon Run 2020</h2>
