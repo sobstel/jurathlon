@@ -18,7 +18,7 @@ export default function Home() {
         <section>
           <h2>25.07.2021<br />Kroczyce-Piaseczno</h2>
           <p className="nocenter">
-            Leśne ścieżki. Jurajskie skały i jaskinie. Zamek Bąkowiec. Szlak Orlich Gniazd. Piękne widoki. Dużo miejsca na piknik dla rodzin i kibiców na malowniczo położonym Motylkowym Wzgórzu. Kameralna atmosfera. Organizowane przez miłośników Jury, biegania i aktywnego trybu życia. Zapraszamy!
+             Jurajskie skały i jaskinie. Zamek Bąkowiec. Szlak Orlich Gniazd. Leśne ścieżki. Piękne widoki. Dużo miejsca na piknik dla rodzin i kibiców na malowniczo położonym Motylkowym Wzgórzu. Kameralna atmosfera. Organizowane przez miłośników Jury, biegania i aktywnego trybu życia. Zapraszamy!
           </p>
           <div className="banner">
             <ul>
@@ -88,31 +88,7 @@ export default function Home() {
 
 
         <section>
-          <h2>Bieg/marsz 6km (↑↓ 150m)</h2>
-          <div>
-            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
-          </div>
-          <table>
-            <tr>
-              <th>Trasa</th>
-              <td><a href="https://www.traseo.pl/trasa/jurathlon-6km-1" target="_blank">traseo.pl/trasa/jurathlon-6km-1</a></td>
-            </tr>
-            <tr>
-              <th>Punkty odżywcze</th>
-              <td>
-                ok. 2km (Zamek Bąkowiec) - woda<br />
-                meta (Motylkowe Wzgórze) - woda, banany
-              </td>
-            </tr>
-            <tr>
-              <th>Limit czasu</th>
-              <td>1h (bieg), 1.5h (marsz NW)</td>
-            </tr>
-          </table>
-        </section>
-
-        <section>
-          <h2>Bieg 12km (↑↓ 300m)</h2>
+          <h2>6km/12km</h2>
           <table>
             <tr>
               <th>Trasa</th>
@@ -122,40 +98,60 @@ export default function Home() {
               </td>
             </tr>
             <tr>
+              <th>Przewyższenia</th>
+              <td>↑↓ 150m (6km), ↑↓ 300m (12km)</td>
+            </tr>
+            <tr>
               <th>Punkty odżywcze</th>
               <td>
-                ok. 2km i ok. 8km (Zamek Bąkowiec) - woda<br />
-                ok. 6km i meta (Motylkowe Wzgórze) - woda, banany
+                2km/8km (Zamek Bąkowiec) - woda<br />
+                meta/6km (Motylkowe Wzgórze) - woda, banany
               </td>
             </tr>
             <tr>
-              <th>Limit czasu</th><td>2h</td>
+              <th>Limit czasu</th>
+              <td>1h (bieg 6km), 1.5h (marsz NW), 2h (bieg 12km)</td>
+            </tr>
+            <tr>
+              <th>Wpisowe</th>
+              <td>49zł (<a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" target="_blank">zapisz mnie</a>) / 60zł (w dniu zawodów)</td>
             </tr>
           </table>
+          <div>
+            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
+          </div>
         </section>
 
         <section>
-          <h2>Bieg 21km (↑↓ 460m)</h2>
-          <div>
-            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/218037/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
-          </div>
+          <h2>21km</h2>
           <table>
             <tr>
               <th>Trasa</th>
               <td><a href="https://www.traseo.pl/trasa/pod-lechworem-oficjal" target="_blank">traseo.pl/trasa/pod-lechworem-oficjal</a></td>
             </tr>
             <tr>
+              <th>Przewyższenia</th>
+              <td>↑↓ 450m</td>
+            </tr>
+            <tr>
               <th>Punkty odżywcze</th>
               <td>
-                ok. 9km (Skały Rzędkowickie) - woda, banany<br />
-                ok. 15km (Zamek Bąkowiec) - woda<br />
+                9km (Skały Rzędkowickie) - woda, banany<br />
+                15km (Zamek Bąkowiec) - woda<br />
                 meta (Motylkowe Wzgórze) - woda, banany
               </td>
             </tr>
             <tr>
               <th>Limit czasu</th><td>3.5h</td>
             </tr>
+            <tr>
+              <th>Wpisowe</th>
+              <td>59zł (<a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" target="_blank">zapisz mnie</a>) / 70zł (w dniu zawodów)</td>
+            </tr>
           </table>
+          <div>
+            <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/218037/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
+          </div>
         </section>
 
         <section>
@@ -179,9 +175,14 @@ export default function Home() {
 
 
         <section>
-          <h2>Lokalizacja</h2>
+          <h2>Dojazd/Parking</h2>
           <p className="nocenter">
-            Lokalizacja biura zawodów i startu/mety: <a href="https://goo.gl/maps/Zhf794ybZJJwkPEt9" target="_blank">goo.gl/maps/Zhf794ybZJJwkPEt9</a>
+            Najlepszy dojazd jest drogą 78. Następnie należy skręcić w Lgocie Murowanej koło Pizzeri Jurajskiej (od strony drogi, w którą skręcamy) i sklepu Odido (po drugiej stronie ulicy), zielony drogowskaz na “Morsko”.
+            Potem jedziemy prosto ok 3km, podziwiamy jurajskie widoki, aż dojedziemy do skrzyżowania we wsi Piaseczno (jest tylko jedno).
+            Skręcamy w prawo za przystankiem i za ok 300m jesteśmy na parkingu głównym (po lewej stronie). Jesteśmy na miejscu!
+          </p>
+          <p className="nocenter">
+            Lokalizacja parkingu głównego: <a href="https://goo.gl/maps/bezCNuvd1gVYqmpD7" target="_blank">goo.gl/maps/bezCNuvd1gVYqmpD7</a><br />
           </p>
           <div>
             <a href="/jurathlon-dojazd2-big.jpg" target="_blank">
@@ -191,18 +192,20 @@ export default function Home() {
         </section>
 
         <section>
-          <h2>Dojazd/parking</h2>
-          <p className="nocenter">Info wkrótce...</p>
-        </section>
-
-        <section>
           <h2>Biuro zawodów</h2>
+          <p className="nocenter">
+            Z parkingu idziemy wzdłuż betonowego płotu z oznaczeniami czerwonego szlaku.
+            Po około 500m po lewej stronie zobaczymy skałę Cydzownik za którą skręcamy w lewo i wąską ścieżką po kolejnych 300m dochodzimy do znajdującej się po lewej stronie polany <em>Motylkowe Wzgórze</em>,
+            gdzie w namiocie oznaczonym napisem BIURO ZAWODÓW będzie można odebrać pakiet startowy. Start/meta będzie zaraz obok biura.
+          </p>
           <p className="nocenter">
             Lokalizacja biura i startu/mety: <a href="https://goo.gl/maps/Zhf794ybZJJwkPEt9" target="_blank">goo.gl/maps/Zhf794ybZJJwkPEt9</a>
           </p>
-          <p className="nocenter">
-            Więcej info wkrótce...
-          </p>
+          <div>
+            <a href="/jurathlon-dojazd1-big.jpg" target="_blank">
+              <img src="/jurathlon-dojazd1.jpg" />
+            </a>
+          </div>
         </section>
 
         <section>
@@ -283,11 +286,12 @@ export default function Home() {
         table {
           border-collapse: collapse;
           width: 100%;
+          margin: 2rem 0;
         }
         td, th {
           text-align: left;
           vertical-align: top;
-          border: 1px solid #333;
+          border: 1px solid #999;
           padding: 0.5rem 1rem;
         }
         th {
