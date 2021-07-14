@@ -98,8 +98,11 @@ export default function Home() {
               <td><a href="https://www.traseo.pl/trasa/jurathlon-6km-1" target="_blank">traseo.pl/trasa/jurathlon-6km-1</a></td>
             </tr>
             <tr>
-              <th>Punkt odżywczy</th>
-              <td>ok. 2km (obok Zamku Bąkowiec) - woda</td>
+              <th>Punkty odżywcze</th>
+              <td>
+                ok. 2km (Zamek Bąkowiec) - woda<br />
+                meta (Motylkowe Wzgórze) - woda, banany
+              </td>
             </tr>
             <tr>
               <th>Limit czasu</th>
@@ -121,8 +124,8 @@ export default function Home() {
             <tr>
               <th>Punkty odżywcze</th>
               <td>
-                ok. 2km (obok Zamku Bąkowiec) - woda<br />
-                ok. 6km (Motylkowe Wzgórze) - woda, banany
+                ok. 2km i ok. 8km (Zamek Bąkowiec) - woda<br />
+                ok. 6km i meta (Motylkowe Wzgórze) - woda, banany
               </td>
             </tr>
             <tr>
@@ -145,7 +148,8 @@ export default function Home() {
               <th>Punkty odżywcze</th>
               <td>
                 ok. 9km (Skały Rzędkowickie) - woda, banany<br />
-                ok. 15km (obok Zamku Bąkowiec) - woda
+                ok. 15km (Zamek Bąkowiec) - woda<br />
+                meta (Motylkowe Wzgórze) - woda, banany
               </td>
             </tr>
             <tr>
