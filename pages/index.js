@@ -202,6 +202,15 @@ export default function Home() {
         </section>
 
         <section>
+          <h2>Partnerzy</h2>
+          <div>
+            <a href="/partnerzy2021.jpg" target="_blank">
+              <img src="/partnerzy2021.jpg" />
+            </a>
+          </div>
+        </section>
+
+        <section>
           <h2>Tak było... (Jurathlon 2020)</h2>
           <div className="videoWrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qnqjF9choYc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -307,9 +316,8 @@ export default function Home() {
         }
 
         .banner {
-          background: #baad9d;
-          border-radius: 5px;
-          padding: 1rem 0;
+          background: #cbbeae;
+          padding: 0.5rem 0;
         }
 
         .videoWrapper {
