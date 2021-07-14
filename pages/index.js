@@ -40,6 +40,9 @@ export default function Home() {
             </div>
           </div>
           <p className="nocenter">
+            <em>Jeśli zostaną dostępne miejsca, to będzie można też się zapisać w dniu zawodów za 60zł (6km/12km) i 70zł (21km).</em>
+          </p>
+          <p className="nocenter">
             {registrationOpened && <><a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" target="_blank">Zapisy na Jurathlon 2021</a><br /></>}
             <a href="https://www.facebook.com/events/892557964631173/" target="_blank">Wydarzenie Jurathlon 2021 na Facebooku</a><br/>
           </p>
@@ -55,7 +58,7 @@ export default function Home() {
             📸 Zdjęcia, 🎥 filmy z drona<br/>
             ⛺️ Depozyt, przebieralnia<br/>
             🌴 Strefa relaksu (leżaki i hamaki), zabierzcie kocyki i hamaki jeśli ktoś posiada, bo drzew jest sporo do wykorzystania<br/>
-            🥔 Pieczonki - lokalna specjalność na bazie ziemniaków przyrządzana w specjalnym kociołku (przygotowaniem zajmie się Szlachta Skarżycka!)<br/>
+            🥔 Pieczonki - lokalny specjał na bazie ziemniaków przyrządzany w specjalnym kociołku (przygotowaniem zajmie się Szlachta Skarżycka!)<br/>
             🔥 Ognisko po biegu (prowiant we własnym zakresie)<br/>
             🍦 Lody włoskie, 🧇 gofry, 🥤 lemoniada, ☕️ kawa<br/>
           </p>
@@ -89,21 +92,43 @@ export default function Home() {
           <div>
             <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/176788/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
           </div>
-          <p className="nocenter">
-            Punkty odżywczy: ok. 2km (obok Zamku Bąkowiec) - woda
-          </p>
+          <table>
+            <tr>
+              <th>Trasa</th>
+              <td><a href="https://www.traseo.pl/trasa/jurathlon-6km-1" target="_blank">traseo.pl/trasa/jurathlon-6km-1</a></td>
+            </tr>
+            <tr>
+              <th>Punkt odżywczy</th>
+              <td>ok. 2km (obok Zamku Bąkowiec) - woda</td>
+            </tr>
+            <tr>
+              <th>Limit czasu</th>
+              <td>1h (bieg), 1.5h (marsz NW)</td>
+            </tr>
+          </table>
         </section>
 
         <section>
           <h2>Bieg 12km (↑↓ 300m)</h2>
-          <p className="nocenter">
-            Bieg 12km to dwie pętle 6km. Trasę zobacz powyżej (6km).
-          </p>
-          <p className="nocenter">
-            Punkty odżywcze:<br/>
-              - ok. 2km (obok Zamku Bąkowiec) - woda<br />
-              - ok. 6km (Motylkowe Wzgórze) - woda, banany
-          </p>
+          <table>
+            <tr>
+              <th>Trasa</th>
+              <td>
+                <a href="https://www.traseo.pl/trasa/jurathlon-6km-1" target="_blank">traseo.pl/trasa/jurathlon-6km-1</a><br />
+                (bieg 12km to dwie pętle 6km)
+              </td>
+            </tr>
+            <tr>
+              <th>Punkty odżywcze</th>
+              <td>
+                ok. 2km (obok Zamku Bąkowiec) - woda<br />
+                ok. 6km (Motylkowe Wzgórze) - woda, banany
+              </td>
+            </tr>
+            <tr>
+              <th>Limit czasu</th><td>2h</td>
+            </tr>
+          </table>
         </section>
 
         <section>
@@ -111,11 +136,22 @@ export default function Home() {
           <div>
             <iframe width="100%" height="666" src="https://www.traseo.pl/mapa/218037/m/0/h/0/i/0/g/0/hd/1/cd/1/km/1/" frameBorder="0"></iframe>
           </div>
-          <p className="nocenter">
-            Punkty odżywcze:<br/>
-            - ok. 9km (Skały Rzędkowickie) - woda, banany<br />
-            - ok. 15km (obok Zamku Bąkowiec) - woda
-          </p>
+          <table>
+            <tr>
+              <th>Trasa</th>
+              <td><a href="https://www.traseo.pl/trasa/pod-lechworem-oficjal" target="_blank">traseo.pl/trasa/pod-lechworem-oficjal</a></td>
+            </tr>
+            <tr>
+              <th>Punkty odżywcze</th>
+              <td>
+                ok. 9km (Skały Rzędkowickie) - woda, banany<br />
+                ok. 15km (obok Zamku Bąkowiec) - woda
+              </td>
+            </tr>
+            <tr>
+              <th>Limit czasu</th><td>3.5h</td>
+            </tr>
+          </table>
         </section>
 
         <section>
@@ -150,9 +186,23 @@ export default function Home() {
           </div>
         </section>
 
+        <section>
+          <h2>Dojazd/parking</h2>
+          <p className="nocenter">Info wkrótce...</p>
+        </section>
 
         <section>
-          <h2>Jurathlon Run 2020</h2>
+          <h2>Biuro zawodów</h2>
+          <p className="nocenter">
+            Lokalizacja biura i startu/mety: <a href="https://goo.gl/maps/Zhf794ybZJJwkPEt9" target="_blank">goo.gl/maps/Zhf794ybZJJwkPEt9</a>
+          </p>
+          <p className="nocenter">
+            Więcej info wkrótce...
+          </p>
+        </section>
+
+        <section>
+          <h2>Tak było... (Jurathlon 2020)</h2>
           <div className="videoWrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qnqjF9choYc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
@@ -216,6 +266,19 @@ export default function Home() {
         }
         p.nocenter {
           text-align: left;
+        }
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        td, th {
+          text-align: left;
+          vertical-align: top;
+          border: 1px solid #333;
+          padding: 0.5rem 1rem;
+        }
+        th {
+          width: 25%;
         }
 
         .title {
