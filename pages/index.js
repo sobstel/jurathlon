@@ -57,13 +57,12 @@ export default function Home() {
             ⏱ Profesjonalny pomiar czasu<br/>
             📸 Zdjęcia, 🎥 filmy z drona<br/>
             ⛺️ Depozyt, przebieralnia<br/>
-            🌴 Strefa relaksu (leżaki i hamaki), zabierzcie kocyki i hamaki jeśli ktoś posiada, bo drzew jest sporo do wykorzystania<br/>
+            🌴 Strefa relaksu - leżaki i hamaki (zabierzcie też swoje kocyki i hamaki, bo miejsca i drzew jest sporo do wykorzystania)<br/>
             🥔 Pieczonki - lokalny specjał na bazie ziemniaków przyrządzany w specjalnym kociołku (przygotowaniem zajmie się Szlachta Skarżycka!)<br/>
             🔥 Ognisko po biegu (prowiant we własnym zakresie)<br/>
             🍦 Lody włoskie, 🧇 gofry, 🥤 lemoniada, ☕️ kawa<br/>
-          </p>
-          <p className="nocenter">
-            ... i kilka innych rzeczy, których jesteśmy w trakcie potwierdzania
+            💎 Wystawa minerałów<br />
+            🧒 Biegi dla dzieci<br />
           </p>
         </section>
 
@@ -86,7 +85,6 @@ export default function Home() {
           </p>
         </section>
 
-
         <section>
           <h2>6km/12km</h2>
           <table>
@@ -95,6 +93,14 @@ export default function Home() {
               <td>
                 <a href="https://www.traseo.pl/trasa/jurathlon-6km-1" target="_blank">traseo.pl/trasa/jurathlon-6km-1</a><br />
                 (bieg 12km to dwie pętle 6km)
+              </td>
+            </tr>
+            <tr>
+              <th>Skalni patroni</th>
+              <td>
+                <a href="https://pl.wikipedia.org/wiki/Cydzownik" target="_blank">Cydzownik</a>,{" "}
+                <a href="https://pl.wikipedia.org/wiki/Dziadowa_Skała" target="_blank">Dziadowa Skała</a>,{" "}
+                <a href="https://pl.wikipedia.org/wiki/Nietoperze_(skała)" target="_blank">Nietoperze</a>
               </td>
             </tr>
             <tr>
@@ -128,6 +134,12 @@ export default function Home() {
             <tr>
               <th>Trasa</th>
               <td><a href="https://www.traseo.pl/trasa/pod-lechworem-oficjal" target="_blank">traseo.pl/trasa/pod-lechworem-oficjal</a></td>
+            </tr>
+            <tr>
+              <th>Skalny patron</th>
+              <td>
+                <a href="https://pl.wikipedia.org/wiki/Turnia_Lechwora" target="_blank">Turnia Lechwora</a>
+              </td>
             </tr>
             <tr>
               <th>Przewyższenia</th>
