@@ -105,7 +105,7 @@ export default function Home() {
             </tr>
             <tr>
               <th>Przewyższenia</th>
-              <td>↑↓ 150m (6km), ↑↓ 300m (12km)</td>
+              <td>↑↓ 125m (6km), ↑↓ 250m (12km)</td>
             </tr>
             <tr>
               <th>Punkty odżywcze</th>
@@ -143,7 +143,7 @@ export default function Home() {
             </tr>
             <tr>
               <th>Przewyższenia</th>
-              <td>↑↓ 450m</td>
+              <td>↑↓ 460m</td>
             </tr>
             <tr>
               <th>Punkty odżywcze</th>
