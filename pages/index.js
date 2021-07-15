@@ -261,8 +261,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
         }
-
-        section {
+        section, table {
           width: 100%;
         }
 
@@ -285,7 +284,6 @@ export default function Home() {
         }
         table {
           border-collapse: collapse;
-          width: 100%;
           margin: 2rem 0;
         }
         td, th {
@@ -310,6 +308,7 @@ export default function Home() {
 
         a {
           color: #8a6d69;
+          word-break: break-all;
         }
         a.register {
           display: inline-block;
