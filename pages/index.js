@@ -43,6 +43,9 @@ export default function Home() {
             <em>Jeśli zostaną dostępne miejsca, to będzie można też się zapisać w dniu zawodów za 60zł (6km/12km) i 70zł (21km).</em>
           </p>
           <p className="nocenter">
+            <strong>UWAGA!</strong> Tylko zapisani do 18-go lipca włączanie będą mieć umieszczone swoję imię na numerze startowym.
+          </p>
+          <p className="nocenter">
             {registrationOpened && <><a href="https://sportmaniacs.com/pl/services/inscription/jurathlon-run-2021" target="_blank">Zapisy na Jurathlon 2021</a><br /></>}
             <a href="https://www.facebook.com/events/892557964631173/" target="_blank">Wydarzenie Jurathlon 2021 na Facebooku</a><br/>
           </p>
